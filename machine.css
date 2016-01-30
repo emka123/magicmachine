@@ -27,3 +27,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2c2c2', end
   color: black;
 }
 
+
+
+
+.btn-quotes {
+  font-size: 18px;
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  background-color: grey;
+  border-color: black;
+  border-width: 2px;
+  -webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+  color: black;
+  outline: 0;  
+}
+
+.btn-quotes:hover {
+    color: black;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background-color: #9b9992;
+    transform: scale(1.1);
+    transition: 0.3s;
+    letter-spacing: 2px;
+    
+}
+
+.btn-quotes.active, .btn-success:active, .open>.dropdown-toggle.btn-success {
+    color: black;
+    background-color: grey;
+    border-color: black;
+}
+
+.btn-quotes:active:focus {
+   color: black;
+    background-color: grey;
+    border-color: black;   
+}
+
+.center {
+  text-align: center;
+  margin-top: 28px;
+}
